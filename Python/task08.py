@@ -1,4 +1,5 @@
-#Показать числа от -N до N
+#Показать четные числа от 1 до N
 N=int(input("введите число N "))
-for i in range (-N,N):
-    print (i)
+for i in range (1,N):
+    if i % 2 ==0:
+        print (i)
