@@ -1,15 +1,15 @@
 # Определить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0
-print('Введите координаты точки')
+print('enter coordinates')
 x = int(input())
 y = int(input())
 if x>0:
  if y>0:
-  print('Точка лежит в 1 четверти')
+  print('sector 1 ')
  else: 
-  print('Точка лежит в 4 четверти')
+  print('sector 4 ')
 else:
  if y>0:
-  print('Точка лежит в 2 четверти')
+  print('sector 2 ')
  else:
-  print('Точка лежит в 3 четверти')
+  print('sector 3 ')
     

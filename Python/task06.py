@@ -1,6 +1,6 @@
 #Выяснить является ли число чётным
-a = int(input("введите число a "))
+a = int(input("enter a "))
 if a % 2==0:
-    print (f"число {a} - четное")
+    print (f" {a} even number ")
 else:
-    print (f"число {a} - не четное")
+    print (f" {a} - not even number")

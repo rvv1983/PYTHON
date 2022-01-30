@@ -3,8 +3,8 @@ a=int(input("введите число 1 "))
 b=int(input("введите число 2 "))
 c=int(input("введите число 3 "))
 if a<b>c:
- print("число",b,"максимальное")
+ print("number",b,"is max")
 elif b<c>a:
- print("число",c,"максимальное")
+ print("number",c,"is max")
 else: 
- print("число",a,"максимальное")
+ print("number",a,"is max")

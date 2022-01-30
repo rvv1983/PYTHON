@@ -1,17 +1,17 @@
 #По заданному номеру дня недели вывести его название
-day = int(input("введите номер дня недели "))
+day = int(input("enter week number "))
 if day==1:
-    print("понедельник")
+    print("monday")
 elif day==2:
- print("вторник")
+ print("tuesday")
 elif day==3:
- print("среда")
+ print("wednesday")
 elif day==4:
- print("четверг")
+ print("thursday")
 elif day==5:
- print("пятница")
+ print("friday")
 elif day==6:
- print("суббота")
+ print("saterday")
 elif day==7:
- print("воскресенье")
-else: print("введите числа менее 8")
+ print("sunday")
+else: print("enter numbers less than 8")

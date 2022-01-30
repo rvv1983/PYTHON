@@ -1,3 +1,3 @@
 #Вывести квадрат числа
-a=int(input("введите число "))
+a=int(input("enter "))
 print (a**2)
